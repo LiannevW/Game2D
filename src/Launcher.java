@@ -1,6 +1,7 @@
 public class Launcher {
 
     public static void main(String [] args){
-        new Game("My first tile GAME!!", 400,400);
+        Game game = new Game("My first tile GAME!!", 400,400);
+        game.start();
     }
 }
