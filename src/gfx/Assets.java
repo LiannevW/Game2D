@@ -1,3 +1,8 @@
+package gfx;
+
+import gfx.ImageLoader;
+import gfx.SpriteSheet;
+
 import java.awt.image.BufferedImage;
 
 public class Assets {
