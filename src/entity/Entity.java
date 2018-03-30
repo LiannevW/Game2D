@@ -1,13 +1,17 @@
 package entity;
 
+import core.Game;
+
 import java.awt.*;
 
 public abstract class Entity {
 
+    protected Game game;
     protected float x, y;
     protected int width, height;
 
-    public Entity(float x, float y, int width, int height){
+    public Entity(Game game, float x, float y, int width, int height){
+        this.game = game;
         this.x = x;
         this.y = y;
         this.width = width;
